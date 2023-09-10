@@ -1,0 +1,97 @@
+nav {
+    color: rgb(59, 12, 35); /* Set text color */
+    padding: 10px 30; /* Add padding to the top and bottom for spacing */
+    margin-right: 30;
+}
+
+
+header {
+    background-color: #C67DFF;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header h2 {
+    font-size: 24px;
+    margin: 0;
+    font-family: "Courier New", Courier, monospace;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+    font-family: Arial, sans-serif;
+}
+
+a:link {
+    color: #250364;
+    text-decoration: none;
+}
+
+a:hover {
+    color: hotpink;
+  }
+
+img {
+    border: 10px solid #481072;
+    border-radius: 25%;
+    display: block;
+    margin: 0 auto;
+}
+
+.schedule-table {
+    border-collapse: collapse;
+    width: 50%;
+    margin-top: 20px;
+}
+
+.schedule-table th,
+.schedule-table td {
+    border: 1px solid #C67DFF;
+    text-align: center;
+    padding: 10px;
+}
+
+.schedule-table tr:nth-child(even) {
+    background-color: #f2d4f4e7;
+}
+
+footer {
+    background-color: #935388;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+} 
+
+#portfolio-header {
+    background: linear-gradient(to bottom, #cc92ae, #fae4ef, white);
+    color: rgb(58, 11, 45); /* Set text color to contrast with the gradient */
+    text-align: center; /* Center-align the text */
+    padding: 20px; /* Add some padding to the header for spacing */
+}
+
+#portfolio-footer {
+    background-color: #f27bb8;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+* {
+    margin: 10;
+    padding: 25;
+}
+
+.highlight {
+    background: linear-gradient(to bottom, #cc92ae, #fae4ef, white);
+    padding: 20px; /* Add some padding to the header for spacing */
+    color: rgb(58, 2, 40);
+    font-weight: bold;
+}
+
