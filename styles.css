@@ -1,24 +1,51 @@
 nav {
     color: rgb(59, 12, 35); /* Set text color */
     padding: 10px 30; /* Add padding to the top and bottom for spacing */
-    margin-right: 30;
+    text-align: right;
+    padding-right: 30px;
+    margin-left: 40;
+    margin-right: 40;
+}
+
+html, body {
+    height: 100%; /* Make sure the HTML element takes up the full height of the viewport */
+    box-sizing: border-box;
+}
+
+main {
+    flex: 1; /* Allow the main content to expand and fill available space */
+    /* Main content styles go here */
+}
+
+body {
+    background-image: url('/Users/maarjalysygis/Desktop/frontend/exercises/Maarjaly_exercises/mina2.jpeg'); /* Replace 'your-image.jpg' with your image file path */
+    background-size: cover; /* Cover the entire viewport */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-position: center center; /* Center the image both horizontally and vertically */
+    color: rgb(45, 3, 40);
+    margin-left: 40px;
 }
 
 
 header {
-    background-color: #C67DFF;
     text-align: center;
     padding: 20px;
 }
 
 header h1 {
     font-size: 36px;
+    color: rgb(63, 4, 41);
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+text.element {
+    padding-left: 40;
 }
 
 header h2 {
     font-size: 24px;
+    color: white;
     margin: 0;
     font-family: "Courier New", Courier, monospace;
 }
@@ -30,36 +57,12 @@ ul {
 }
 
 a:link {
-    color: #250364;
+    color: hotpink;
     text-decoration: none;
 }
 
 a:hover {
-    color: hotpink;
-  }
-
-img {
-    border: 10px solid #481072;
-    border-radius: 25%;
-    display: block;
-    margin: 0 auto;
-}
-
-.schedule-table {
-    border-collapse: collapse;
-    width: 50%;
-    margin-top: 20px;
-}
-
-.schedule-table th,
-.schedule-table td {
-    border: 1px solid #C67DFF;
-    text-align: center;
-    padding: 10px;
-}
-
-.schedule-table tr:nth-child(even) {
-    background-color: #f2d4f4e7;
+    color: white;
 }
 
 footer {
@@ -67,20 +70,24 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px 0;
+    
 } 
 
 #portfolio-header {
-    background: linear-gradient(to bottom, #cc92ae, #fae4ef, white);
-    color: rgb(58, 11, 45); /* Set text color to contrast with the gradient */
-    text-align: center; /* Center-align the text */
+  
+    text-align: left; /* Center-align the text */
     padding: 20px; /* Add some padding to the header for spacing */
+    background: linear-gradient(to bottom, #a38293, #a38293a2, #a3829320);
 }
 
 #portfolio-footer {
-    background-color: #f27bb8;
-    color: #fff;
-    padding: 10px;
+    background: linear-gradient(to top, #a38293, #a38293a2, #a3829320);
+    color: rgb(63, 4, 41);
+    padding: 50px;
     text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%; /* Add this to make the footer span the entire width */
 }
 
 * {
@@ -88,10 +95,10 @@ footer {
     padding: 25;
 }
 
-.highlight {
-    background: linear-gradient(to bottom, #cc92ae, #fae4ef, white);
-    padding: 20px; /* Add some padding to the header for spacing */
-    color: rgb(58, 2, 40);
-    font-weight: bold;
-}
+
+a {
+    text-decoration: none; /* Remove underlines from links */
+    color: hotpink; /* Text color for links */
+    text-align: right;
+  }
 
